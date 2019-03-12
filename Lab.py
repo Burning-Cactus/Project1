@@ -9,7 +9,7 @@ class Lab:
         # Code
         return 0
 
-    def Create(self):
+    def create(self):
         # code
         return 0
 
