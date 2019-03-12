@@ -1,6 +1,13 @@
 
 
 class Lab:
+    databaseID = 0
+    name = ""
+    courseNumber = 0
+    classNumber = 0
+    time = ""
+    location = ""
+
     def setDataBaseID(self, value):
         # Code
         return 0

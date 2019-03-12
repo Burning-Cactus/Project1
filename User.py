@@ -2,6 +2,19 @@
 
 
 class User:
+    permission = 0
+    username = ""
+    password = ""
+    databaseID = 0
+    courseList = []
+    labList = []
+    email = ""
+    firstName = ""
+    lastName = ""
+    contactPhone = ""
+    officePhone = ""
+    extension = ""
+
     # TODO: Define method stubs for unit testing
 
     def __methodName__(self):
