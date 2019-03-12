@@ -10,6 +10,7 @@ class AcceptanceTests(unittest.TestCase):
         user2 = User;
         user2.databaseID = 45;
         self.assertEquals(DeleteAccount(user.permission, user2.databaseID), user2.username+"'s account has been deleted.");
-        self.assertEquals
-
+        user3 = User
+        self.assertEquals(EditAccount(user.permission, user3), "Account has been edited.")
+        self.assertEquals()
     }
