@@ -45,7 +45,26 @@ class TestCourse(unittest.TestCase):
         c = Course()
         c.location= "EMS 180"
         self.assertEqual("EMS 180", c.get_location)
-    def test
+    def test_add_lab(self):
+        c = Course()
+        c.add_lab()
+        self.assertEqual(1, c.labList.count)
+    def test_name_getter(self):
+        c = Course()
+        c.name = "Phy 209"
+        self.assertEqual("Phy 209", c.get_name())
+    def test_set_name(self):
+        c = Course()
+        c.setName(Phy 210)
+        self.assertEqual("Phy 210", c.name)
+    def  test_set_courseNumber(self):
+        c = Course()
+        c.set_courseNumber(111)
+        self.assertEqual(111, c.courseNumber)
+    def test_get_courseNumber(self):
+        c = Course()
+        c.courseNumber= 123
+        self.assertEqual(123, c.get_courseNumber())
 
 
 
