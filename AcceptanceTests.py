@@ -15,3 +15,5 @@ class AcceptanceTests(unittest.TestCase):
         user3 = User
         self.assertEquals(Commands.EditAccount(user.permission, user3), "Account has been edited.")
         self.assertEquals(Commands.CreatCourse("CourseName, CourseNumber", "Course created."))
+        self.assertEquals(Commands.Email("This is the email"), "Email sent.")
+        self.assertEquals(Commands.AccessData("table name"), "data") #ALLL THE DAtA

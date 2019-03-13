@@ -3,10 +3,14 @@
 class Commands:
 
     def CreateAccount(self):
-        return"";
+        return""
     def EditAccount(self):
-        return"";
+        return""
     def DeleteAccount(self):
-        return"";
+        return""
     def CreateCourse(self):
-        return"";
+        return""
+    def Email(self):
+        return""
+    def AccessData(self):
+        return""
