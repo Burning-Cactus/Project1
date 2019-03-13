@@ -29,3 +29,20 @@ class Course:
     def updateDataBase(self):
         # code
         return 0
+
+    def setClassNumber(self):
+        #code
+        return 0
+
+    def get_class_number(self):
+        #code
+        return 0
+
+    def set_time(self):
+         #code
+         return 0
+
+    def get_time(self):
+        #code
+        return 0
+
