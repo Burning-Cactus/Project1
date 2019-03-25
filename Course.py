@@ -31,18 +31,18 @@ class Course:
         return 0
 
     def setClassNumber(self):
-        #code
+        # code
         return 0
 
     def get_class_number(self):
-        #code
+        # code
         return 0
 
     def set_time(self):
-         #code
-         return 0
+        # code
+        return 0
 
     def get_time(self):
-        #code
+        # code
         return 0
 
