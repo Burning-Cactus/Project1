@@ -1,8 +1,8 @@
-import unittest
+from django.test import TestCase
 import User
 import Commands
 
-class AcceptanceTests(unittest.TestCase):
+class AcceptanceTests(TestCase):
     def test_things(self):
         self.assertEquals(Commands.CreateAccount("1, AKelly, password, Null, Null, Andrew, Kelly, 262-262-2626,"
                                                  " 414-414-4141, 5698"), "Account successfully created.")
